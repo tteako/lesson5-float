@@ -57,14 +57,14 @@
 	letter-spacing: 1px;
 	text-indent: 10px;
 	font-family: 'PT Serif';
+	float: left;
 
 }
 
 .text2 {
-	width: 423px;
+	width: 523px;
 	background-color: #FCEE21;
-	float: right;
-	/*margin-left: 72px;*/
+	float: left;
 	padding: 18px;
 	letter-spacing: 1px;
 	text-indent: 10px;
