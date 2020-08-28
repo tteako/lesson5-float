@@ -1,21 +1,26 @@
-/*Base Class*/
 
-.inbl {
-	display: inline-block;
-}
 
-/* header style */
 .container {
 	background-color: #56836F;
 	border: 4px solid #006837;
 	margin: 0px auto;
-	
 }
+
+/* header style */
+
 .list {
-	margin-right: 62px;
-
+	display: inline-block;
+	margin-right: 50px;
 }
-
+.home {
+	margin-left: 70px;
+}
+.logo {
+	float: right;
+}
+.navigation {
+	float: right;
+}
 .clear {
 	clear: both;
 }
@@ -24,23 +29,11 @@
 	color: white;
 	font-size: 48px;
 	text-transform: uppercase;
-	font-weight: 700px;
+	font-weight: 700px;	
 }
-
-.logo {
-	float: right;
-	display: inline-block;
-	vertical-align: middle;
-	margin: 49px 56px 63px 0px;
-	font-family: font-family: 'Alata', sans-serif;
+.header-wrapper {
+	padding: 60px;
 }
-
-.navigation {
-	float: right;
-	margin-top: 50px;
-}
-
-
 
 /* text block styles */
 .text-container{
@@ -51,7 +44,6 @@
 .text1 {
 	width: 580px;
 	background-color: #FCEE21;
-	/*margin-right: 56px;*/
 	padding: 18px;
 	margin-right: 18px;
 	letter-spacing: 1px;
@@ -60,7 +52,6 @@
 	float: left;
 
 }
-
 .text2 {
 	width: 523px;
 	background-color: #FCEE21;
@@ -69,7 +60,6 @@
 	letter-spacing: 1px;
 	text-indent: 10px;
 }
-
 .text1 img {
 	float: right;
 	margin-left: 36px;
@@ -77,6 +67,20 @@
 .text2 img {
 	float: left;
     margin-right: 26px;
+}
+/*footer*/
+.facebook {
+	margin-left: 20px;
+	margin-top: 30px;
+}
+.youtube {
+	margin-left: 10px;
+	margin-top: 30px;
+}
+.facebook::after {
+	content:'';
+	border: solid blue 4px;
+	
 }
 
 
